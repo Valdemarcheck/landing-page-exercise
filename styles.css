@@ -133,11 +133,14 @@ footer p {
 }
 
 img{
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
     width: 150px;
     height: auto;
 }
 
 .hero > img {
+    border: none;
     width: 300px;
 }
 
@@ -151,7 +154,8 @@ body {
     font-family: "Roboto", sans-serif
 }
 
-h1, h2, .sign-up {
+h1, h2, .sign-up,
+footer {
     color: #f9faf8;
 }
 
