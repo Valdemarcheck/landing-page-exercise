@@ -21,6 +21,10 @@ footer {
     flex-direction: column;
 }
 
+.header, .beginning {
+    flex: 1;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -34,7 +38,9 @@ ul {
 
 .beginning {
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    margin-bottom: 10vh;
 }
 
 .left-half,
@@ -44,7 +50,7 @@ ul {
 }
 
 .cards {
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -62,7 +68,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #d1d4da;
+    background-color: #e5e7eb;
 }
 
 blockquote,
@@ -74,9 +80,15 @@ figcaption {
 figcaption {
     text-align: right;
 }
+/* Sections' sizes */
 
 body > section {
-    flex-basis: 30vh;
+    flex-basis: 30vw;
+    margin: 2vh 0;
+}
+
+.header-beginning {
+    margin: 0;
 }
 
 .sign-up {
@@ -120,24 +132,50 @@ body {
     font-family: "Roboto", sans-serif
 }
 
-h1, h2 {
-    color: white;
+h1, h2, .sign-up {
+    color: #f9faf8;
+}
+
+/* Text sizes */
+
+h1 {
+    font-size: 24px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 48px;
+    margin: 15px 0;
 }
 
+a,
+.left-half > p {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #e5e7eb
+}
 
 blockquote {
-    font-size: 25px;
+    font-size: 36px;
     font-style: italic;
+    color: #1f2937;
+}
+
+.dark-title {
+    font-size: 36px;
+    color: #1f2937;
 }
 
 .sign-up-title {
     margin: 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.dark-title {
-    color: #1f2937;
+ul {
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
