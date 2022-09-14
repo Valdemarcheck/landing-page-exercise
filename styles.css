@@ -84,9 +84,20 @@ body > section {
 }
 
 .sign-up {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-basis: 20vh;
+}
+
+.sign-up-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 85vw;
+    height: 15vh;
+
+    background-color: #3882f6;
 }
 
 footer {
