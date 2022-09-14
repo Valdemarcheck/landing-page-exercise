@@ -101,3 +101,20 @@ footer p {
     margin: 0 auto;
 }
 
+/* Styling rules */
+
+body {
+    font-family: "Roboto", sans-serif
+}
+
+h1, h2 {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.dark-title {
+    color: #1f2937;
+}
