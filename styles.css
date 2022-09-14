@@ -16,7 +16,7 @@ body {
 
 .footer {
     display: flex;
-    background-color: #033B3D;
+    background-color: #755A39;
 }
 
 .header-hero, 
@@ -32,7 +32,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #033B3D;
+    background-color: #755A39;
 }
 
 ul {
@@ -72,11 +72,16 @@ ul {
 .card-set {
     display: flex;
     justify-content: space-evenly;
+    gap: 40px;
 }
 
 .card {
     text-align: center;
     flex-basis: 100px;
+
+    font-size: 16px;
+    font-weight: bold;
+    color:#B58B59
 }
 
 .quote {
@@ -121,7 +126,7 @@ footer {
     flex-basis: 85vw;
     height: 15vh;
 
-    background-color: #0D4A3A;
+    background-color: #B58B59;
 }
 
 .sign-up-text  {
@@ -142,9 +147,9 @@ footer p {
 }
 
 img{
-    border: #0D4A3A solid 3px;
+    border: #B58B59 solid 3px;
     border-radius: 10px;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -189,12 +194,12 @@ a,
 blockquote {
     font-size: 36px;
     font-style: italic;
-    color: #033B3D;
+    color: #755A39;
 }
 
 .dark-title {
     font-size: 36px;
-    color: #033B3D;
+    color: #755A39;
 }
 
 .sign-up-title {
@@ -212,10 +217,11 @@ a {
     display: inline-block;
     color: #e5e7eb;
     text-decoration: none;
-    border: #f9faf8 solid 2px;
-    border-radius: 10px;
     font-weight: bold;
-    width: 100px;
+}
+
+figcaption a {
+    color:#755A39
 }
 
 .button-empty,
@@ -233,11 +239,11 @@ button {
 }
 
 .button-full {
-    background-color: #0D4A3A;
+    background-color: #B58B59;
     border: none;
 }
 
 .button-empty {
-    background-color: #0D4A3A;
+    background-color: #B58B59;
     border: 2px solid #e5e7eb;
 }
