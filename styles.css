@@ -10,10 +10,13 @@ body {
     gap: 5px;
 }
 
-.header-hero,
-footer {
+.header-hero {
     display: flex;
-    background-color: #1f2937;
+}
+
+.footer {
+    display: flex;
+    background-color: #033B3D;
 }
 
 .header-hero, 
@@ -29,19 +32,25 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #033B3D;
 }
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 .hero {
     display: flex;
     align-items: center;
-    margin-bottom: 10vh;
-    gap: 20px;
     justify-content: center;
+    padding-bottom: 10vh;
+    gap: 20px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url("./images/laurent-perren-3yiaqDO8kIE-unsplash.jpg");
+    background-size: cover;
+    background-position: 0 -20vw;
 }
 
 .left-half h2,
@@ -112,7 +121,7 @@ footer {
     flex-basis: 85vw;
     height: 15vh;
 
-    background-color: #3882f6;
+    background-color: #0D4A3A;
 }
 
 .sign-up-text  {
@@ -133,7 +142,7 @@ footer p {
 }
 
 img{
-    border: #3882f6 solid 3px;
+    border: #0D4A3A solid 3px;
     border-radius: 10px;
     width: 150px;
     height: auto;
@@ -180,12 +189,12 @@ a,
 blockquote {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #033B3D;
 }
 
 .dark-title {
     font-size: 36px;
-    color: #1f2937;
+    color: #033B3D;
 }
 
 .sign-up-title {
@@ -196,11 +205,17 @@ blockquote {
 
 ul {
     list-style: none;
+    text-align: center;
 }
 
 a {
+    display: inline-block;
     color: #e5e7eb;
     text-decoration: none;
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100px;
 }
 
 .button-empty,
@@ -218,11 +233,11 @@ button {
 }
 
 .button-full {
-    background-color: #3882f6;
+    background-color: #0D4A3A;
     border: none;
 }
 
 .button-empty {
-    background-color: #3882f6;
+    background-color: #0D4A3A;
     border: 2px solid #e5e7eb;
 }
