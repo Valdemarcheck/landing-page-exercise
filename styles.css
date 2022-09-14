@@ -39,8 +39,9 @@ ul {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin-bottom: 10vh;
+    gap: 20px;
+    justify-content: center;
 }
 
 .left-half h2,
@@ -61,12 +62,12 @@ ul {
 
 .card-set {
     display: flex;
-    gap: 10vw;
+    justify-content: space-evenly;
 }
 
 .card {
-    flex: 1;
     text-align: center;
+    flex-basis: 100px;
 }
 
 .quote {
@@ -129,6 +130,19 @@ footer {
 footer p {
     width: 30vw;
     margin: 0 auto;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+.hero > img {
+    width: 300px;
+}
+
+.left-half {
+    flex-basis: 600px;
 }
 
 /* Styling rules */
