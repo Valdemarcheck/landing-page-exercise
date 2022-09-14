@@ -7,7 +7,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .header-beginning,
@@ -19,12 +19,6 @@ footer {
 .header-beginning, 
 .sign-up-text {
     flex-direction: column;
-}
-
-.beginning,
-.sign-up,
-.sign-up-text  {
-    display: flex;
 }
 
 header {
@@ -39,6 +33,7 @@ ul {
 }
 
 .beginning {
+    display: flex;
     justify-content: space-around;
 }
 
@@ -55,24 +50,25 @@ ul {
 
 .card-set {
     display: flex;
-    gap: 10px;
+    gap: 10vw;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #7a7e83;
+    background-color: #d1d4da;
 }
 
 blockquote,
 figcaption {
     width: 50vw;
     margin: 0 auto;
-}
-
-blockquote {
-    font-size: 40px;
 }
 
 figcaption {
@@ -100,6 +96,12 @@ body > section {
     background-color: #3882f6;
 }
 
+
+.sign-up-text  {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     display: flex;
     text-align: center;
@@ -124,6 +126,16 @@ h1, h2 {
 
 h2 {
     font-size: 30px;
+}
+
+
+blockquote {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.sign-up-title {
+    margin: 0;
 }
 
 .dark-title {
